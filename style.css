@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Righteous', cursive;
+    font-family: 'Tilt Prism', cursive; */
+   font-size: xx-larger;
+
+    
+}
+body{
+    width: 100%;
+    /* height: 5px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(rgb(96, 94, 94));
+    background-color: rgb(53, 53, 51);
+    margin-top: 150px;
+}
+.calculator{
+    /* border: 2px solid white; */
+    width: 400px;
+    padding: 20px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px  rgb(230, 227, 227);
+
+}
+input{
+width: 100%;
+border: none;
+margin:10px ;
+padding: 20px;
+background: transparent;
+box-shadow: 0px 5px 15px rgb(85, 82, 82);
+font-size: 40px;
+text-align: right;
+cursor:pointer;
+color: aliceblue;
+}
+input::placeholder{
+    border: none;
+    color:white
+}
+button{
+    border: none;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    text-shadow: 2px 1px 5px rgb(13, 12, 12);
+    color:white;
+    font-size: large;
+    box-shadow: 2px 1px 3px .1px white;
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: rgb(249, 124, 7);
+}
+.operator1{
+    /* background-color: rgb(183, 246, 183); */
+    color: aqua; 
+} 
+.operator2{
+    /* background-color: rgb(2, 179, 249); */
+    color: aqua;
+}
+.operator3{
+    /* background-color: rgb(48, 3, 247); */
+    color: aqua;
+}
+.operator4{
+    /* background-color: rgb(238, 160, 5); */
+    color: aqua;
+}
+.operator5{
+     /* background-color: rgb(243, 8, 8); */
+    color: red;
+}
+.operator6{
+    /* background-color: rgb(243, 8, 16); */
+    color: green;
+}
+.operator7{
+    /* background-color: rgb(243, 235, 8); */
+    color: aqua;
+}
